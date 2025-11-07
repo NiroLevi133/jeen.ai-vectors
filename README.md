@@ -1,4 +1,4 @@
-# 📌 index_documents_fixed – הפקת Embeddings ושמירה ב-PostgreSQL
+# 📌 index_documents.py – הפקת Embeddings ושמירה ב-PostgreSQL
 
 הפרויקט מכיל סקריפט פייתון שמקבל קובץ PDF או DOCX, מחלק אותו למקטעים בגודל קבוע עם חפיפה, מפיק Embeddings בעזרת Google Gemini, ושומר את התוצאות במסד נתונים PostgreSQL.
 
@@ -35,4 +35,5 @@ embedding	DOUBLE PRECISION[]
 filename	TEXT
 strategy_split	TEXT
 created_at	TIMESTAMPTZ
+
 
