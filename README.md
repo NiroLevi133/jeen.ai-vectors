@@ -12,9 +12,11 @@
 
 
 ##  קבצי הפרוקיט
-| `index_documents.py` | הסקריפט הראשי – קורא את הקובץ, מפיק Embeddings ושומר למסד |
-| `requirements.txt` | כל הספריות שצריך להתקין עם pip |
-| `.env` | קובץ משתנים סודיים – מפתחות Gemini ו-POSTGRES_URL *(לא נכנס לגיט)* |
+ `index_documents.py` | הסקריפט הראשי – קורא את הקובץ, מפיק Embeddings ושומר למסד
+ 
+ `requirements.txt` | כל הספריות שצריך להתקין עם pip
+ 
+ `.env` | קובץ משתנים סודיים – מפתחות Gemini ו-POSTGRES_URL *(לא נכנס לגיט)* 
 
 
 
@@ -54,4 +56,5 @@ python index_documents.py --file test1.docx
 | created_at     | TIMESTAMPTZ        |
 
 ## הדגמה
+
 
