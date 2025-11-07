@@ -16,7 +16,7 @@
  
  `requirements.txt` | כל הספריות שצריך להתקין עם pip
  
- `.env` | קובץ משתנים סודיים – מפתחות Gemini ו-POSTGRES_URL *(לא נכנס לגיט)* 
+ `.env` | קובץ משתנים סודיים – מפתחות Gemini ו-POSTGRES_URL 
 
 
 
@@ -56,5 +56,6 @@ python index_documents.py --file test1.docx
 | created_at     | TIMESTAMPTZ        |
 
 ## הדגמה
+
 
 
